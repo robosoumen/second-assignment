@@ -210,6 +210,7 @@ main{
     display: flex;
     gap: 10px;
 }
+
 .left-img-1{
     position: relative;
     text-align: center;
@@ -311,7 +312,70 @@ main{
 
 /* responsive small devices */
 @media screen and (max-width:576px){
-    .navbar{
-        
+    /* navbar section */
+    .hide{
+        display: none;
+    }
+    /* .navbar{
+        justify-content: center;
+        align-items: center;
+    } */
+     /* flower section */
+     .flower img{
+        width:393px;
+        height: 245px;
+     }
+     .flower-writen{
+        width:361px;
+        height:147px;
+     }
+     .flower-writen h1{
+        font-size: 24px;
+        font-weight: bold;
+     }
+    .fresh-flower{
+        flex-direction: column-reverse;
+    }
+    /* our-plant section */
+    .plant-img-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* lover section */
+    .lover{
+        width: 361px;
+        height: 648px;
+        flex-direction: column;
+    }
+    .badge-container img{
+        display: none;
+    }
+    
+    /* challenge section */
+    .left-img-1 img{
+        width:361px;
+        height: 184px;
+    }
+    .left-img-2 img{
+        width: 361px;
+        height: 184px;
+    }
+    .right-img-container img{
+        width: 361px;
+        height: 184px;
+    }
+    /* form-section */
+    .form-section{
+        width: 393px;
+        height: 276px;
+    }
+    /* footer-section */
+    .footer-section{
+        width: 393px;
+        height: 865px;
+    }
+    .footer-link{
+        flex-direction: column;
     }
 }
+    
