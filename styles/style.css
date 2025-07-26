@@ -332,69 +332,166 @@ footer{
     margin-top: 20px;
 }
 
-
+.footer-paragraph{
+    color: #0000009f;
+}
 
 /* responsive small devices */
 @media screen and (max-width:576px){
     /* navbar section */
+    
+    
+    .navbar{
+        gap: 16px;
+        padding: 20px 10px;
+        align-items: center;
+    }
+    .navbar img{
+        width: 70%;
+        height: 80%;
+    }
     .hide{
         display: none;
     }
-     .flower img{
-        width:393px;
-        height: 245px;
-     }
-     .flower-writen{
-        width:361px;
-        height:147px;
-     }
-     .flower-writen h1{
-        font-size: 24px;
-        font-weight: bold;
-     }
+    /* flower-section */
+    .flower-section{
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
     .fresh-flower{
         flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
     }
-    /* our-plant section */
+    .flower img{
+        width: 100%;
+        height: auto;
+    }
+    .flower-writen{
+        width:100%;
+        height: auto;
+        text-align: center;
+    }
+    .always,.fresh,.flower{
+        font-size: 28px;
+    }
+    .flower-paragraph{
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    /* our plant  */
+    .our-plant{
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .plant-heading{
+        font-size: 28px;
+        text-align: center;
+    }
+    .plant-paragraph {
+        font-size: 16px;
+        padding: 0 10px;
+    }
     .plant-img-container{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns:repeat(2,1fr);
+        gap: 15px;
     }
     /* lover section */
     .lover{
-        width: 361px;
-        height: 648px;
         flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
     }
-    .badge-container img{
+    .badge-container{
         display: none;
     }
-    
-    /* challenge section */
-    .left-img-1 img{
-        width:361px;
-        height: 184px;
+    .lover-text{
+        padding: 10px;
+        text-align: center;
     }
-    .left-img-2 img{
-        width: 361px;
-        height: 184px;
+    .lover-text p{
+        font-size: 28px;
     }
-    .right-img-container img{
-        width: 361px;
-        height: 184px;
+    .lover-text li{
+        font-size: 16px;
+        margin-bottom: 5px;
     }
-    /* form-section */
-    .form-section{
-        width: 393px;
-        height: 276px;
+    /* latest deal section */
+    .latest-deal-section{
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
     }
-    /* footer-section */
-    .footer-section{
-        width: 393px;
-        height: 865px;
-    }
-    .footer-link{
+     .latest-deal-section h1{
+        font-size: 28px;
+     }
+     .latest-deal-section p{
+        font-size: 16px;
+        color: #00000091;
+     }
+     /* challenge-section */
+     .challenge-section{
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+     }
+     .challange-container{
         flex-direction: column;
-    }
+        gap: 10px;
+     }
+     .challange-container img{
+        width: 100%;
+     }
+     .centered2,.centered1,.centered-text,.centered-text2{
+        font-size: 30px;
+     }
+     /* form section */
+     .form-section{
+        width: 100%;
+        height: auto;
+        padding: 40px 10px;
+        background-size: cover;
+     }
+     .form-heading{
+        font-size: 28px;
+        text-align: center;
+     }
+      .form-responsive{
+        display: flex;
+        align-items: center;
+     }
+     .input{
+        width: 100%;
+        margin: 10px 0;
+     }
+     /* footer-section */
+     .footer-section{
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+        align-items: normal;
+     }
+     .footer-link{
+        flex-direction: column;
+        align-items: center;
+     }
+     .footer-link li{
+        margin-top: 15px;
+        font-size: 14px;
+        color: #0000008e;
+     }
+     .footer-logo{
+        justify-content: flex-start;
+        gap: 30px;
+     }
+    
 }
     
